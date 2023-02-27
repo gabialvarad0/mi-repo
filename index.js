@@ -9,4 +9,5 @@ function mostrarOcultarResumen() {
     resumen.classList.add("oculto");
     boton.textContent = "Mostrar más";
   }
+
 }
