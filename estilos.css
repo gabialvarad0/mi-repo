@@ -1,0 +1,120 @@
+/* Estilo para el cuerpo del documento */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffff;
+  margin: 0;
+} 
+
+/* Estilo para el encabezado */
+header {
+  background-color: #25274d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para la foto de perfil */
+.profile-img {
+  display: block;
+  margin: 0 auto; 
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Estilo para la barra de navegación */
+nav {
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #25274d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #25274d;
+}
+
+/* Estilo para las secciones del CV */
+section {
+  padding: 40px 20px;
+  text-align: center; 
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #25274d;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para los íconos de Font Awesome */
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.oculto {
+  display: none;
+}
+
+/* Estilo para la lista de habilidades */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  flex: 1 1 15%; 
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    flex: 1 1 40%; 
+    font-size: 0.8rem; 
+    padding: 1px; 
+  }
+}

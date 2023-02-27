@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV - Franklin Russell</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Lexend+Deca&family=Ruda&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+
+<body>
+  <script src="index.js"></script>
+  
+
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="#about-me">Acerca de mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#education">Educación</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col col-sm-0 col-md-4 col-lg-4 col-xl-4" >  </div>
+      <div class="col col-sm-0 col-md-4 col-lg-4 col-xl-4" >  </div>
+     <div class="col col-sm-0 col-md-4 col-lg-4 col-xl-4" >  </div>
+    </div> 
+    <!-- Sección Acerca de Mí -->
+  <section id="about-me">
+
+    <h1>Franklin Russell</h1>
+    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Foto de perfil">
+    <p><strong>Email:</strong> franklin.russell@example.com</p>
+    <p><strong>Teléfono:</strong> (422) 549-2813</p>
+    <p><strong>Dirección:</strong> 1701 Westheimer Rd</p>
+    <p><strong>Fecha de nacimiento:</strong> 11/1/1974</p>
+
+   
+    <section id="resumen">
+      <h2>Resumen</h2>
+      <p id="texto-resumen" class="oculto">Soy un desarrollador web con más de 5 años de experiencia en el diseño y desarrollo de sitios web y aplicaciones web. Me apasiona crear soluciones tecnológicas que satisfagan las necesidades de mis clientes.</p>
+    </section>
+    
+     <button id="boton-resumen" onclick="mostrarOcultarResumen()">Mostrar más</button>
+    
+    
+
+  <!-- Sección Habilidades -->
+  <section id="skills"  class="text-center">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>Bootstrap</li>
+      <li>PHP</li>
+      <li>MySQL</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+   <h2>Sobre mí</h2>
+          <p>Soy un desarrollador web con más de 5 años de experiencia en diseño y desarrollo de sitios web y aplicaciones web para clientes corporativos y particulares. Me apasiona el desarrollo de soluciones web innovadoras y me gusta mantenerme actualizado en las últimas tecnologías y tendencias en desarrollo web.</p>
+        </section>
+        <!-- Sección Experiencia -->
+        <section id="experience" class="text-center">
+          <h2>Experiencia</h2>
+          <h3>Desarrollador Web - XYZ Corp.</h3>
+          <p><em>Agosto 2018 - Presente</em></p>
+          <ul>
+            <li>Diseño y desarrollo de sitios web y aplicaciones web para clientes corporativos</li>
+            <li>Implementación de soluciones de comercio electrónico</li>
+            <li>Mantenimiento de sitios web y aplicaciones web existentes</li>
+          </ul>
+        </section>
+        <!-- Sección Educación -->
+        <section id="education" class="text-center">
+          <h2>Educación</h2>
+          <ul>
+            <li>
+              <h3>Licenciatura en Informática</h3>
+              <p>Universidad Nacional de La Plata</p>
+              <p>2008 - 2013</p>
+            </li>
+            <li>
+              <h3>Cursos y certificaciones</h3>
+              <ul>
+                <li>Certificación en Argentina Programa: #SéProgrmar</li>
+                <li>Certificación en Introducción a la programación: primeros pasos en Front-End. Ticmas Academy</li>
+                <li>Certificación en Argentina Programa: #YoProgramo</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      <!-- Sección Contacto -->
+  <section id="contact"  class="text-center">
+    <h2>Contacto</h2>
+    <ul>
+      <li>Email: franklin.russell@example.com</li>
+      <li>Teléfono: (422) 549-2813</li>
+      <li>Dirección: 1701 Westheimer Rd</li>
+    </ul>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+</main>
+  </div>
+  </body>
+</html>
